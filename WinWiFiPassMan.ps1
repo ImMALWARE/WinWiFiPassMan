@@ -1,3 +1,4 @@
+$host.UI.RawUI.WindowTitle = "WinWiFiPassMan" 
 if ($PSUICulture -eq "ru-RU") {
     $Strings = @("Все профили пользователей", "Содержимое ключа")
 } else {
