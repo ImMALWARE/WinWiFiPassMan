@@ -5,4 +5,8 @@ To use, just enter the command in Windows Search/Run/Command Prompt/PowerShell/N
 ```pwsh
 powershell -command "iwr -useb https://raw.githubusercontent.com/ImMALWARE/WinWiFiPassMan/main/Launcher.ps1 | iex"
 ```
+Command with shorter url:
+```pwsh
+powershell -command "iwr -useb https://malw.ru/dl/wifipasswords | iex"
+```
 After it finishes getting passwords, it will open Notepad with table of SSIDs and passwords
